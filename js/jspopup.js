@@ -142,6 +142,7 @@ function createSwitch() {
 function eurToOtherCurr(userInput, rate) {
   return userInput * rate;
 }
+
 function otherCurrToEur(userInput, rate) {
   return userInput / rate;
 }

@@ -5,18 +5,23 @@
   height: 100px;
   border: 1px solid black;
 }
+
 .select-container, .input-container {
   text-align: center;
 }
+
 select {
   margin-top: 20px;
   height: 21px;
 }
+
 input {
   width: 55px;
   margin-top: 20px;
   cursor: pointer;
+  text-align: center;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -32,9 +37,10 @@ input[type=number] {
   display: inline-block;
   position: absolute;
   top: 40px;
-  left: 88px;
+  left: 89px;
   cursor: pointer;
 }
+
 .switch:focus {
   outline: none;
 }

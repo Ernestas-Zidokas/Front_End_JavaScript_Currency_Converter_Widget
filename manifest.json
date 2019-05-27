@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Currency Converter Widget",
+  "author": "Katamaranas",
+  "description": "Currency Converter Widget",
+  "homepage_url": "https://github.com/Katamaranas/Front_End_JavaScript_Currency_Converter_Widget",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": {
+      "32": "coin32.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "Currency Converter Widget"
+  },
+  "icons": {
+    "32": "coin32.png"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
